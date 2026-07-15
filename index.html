@@ -13,7 +13,7 @@
              <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#discord">Discord</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
              </ul>
         </nav>
         <header>
@@ -65,9 +65,9 @@
             <h2>Contact Us</h2>
             <form action="">
                 <span>Email</span>
-                <input type="email" placeholder="jane@example.com">
-                <span>Message</span>
-                <textarea type="text" placeholder="Your message here..."></textarea>
+                <input id="email" type="email" placeholder="jane@example.com" autocomplete="off" />
+                <span for="message">Message</span>
+                <textarea id="message" type="text" placeholder="Your message here..."></textarea>
                 <button type="submit">Contact Us!</button>
             </form>
         </section>
